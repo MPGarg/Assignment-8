@@ -37,8 +37,8 @@ Correct Ones:
 
 ## Conclusion
 
-* It can be seen via GradCam images what the network is seeing while predicting class
-* For some images it is looking beyond the main object & detecting non-similar objects. Like predicting bird instead of deer
-* In some images it is getting confused between cat & dog, deer & horse
-* In some cases it is covering extra areas & predicting wrongly. For e.g. plane instead of horse
+* One Cycle Policy helps in speeding of learning for the model
+* Learning rate (maximum & minimum) can vary as per initialized weights of model and need to be determined for that particular model initialization
+* Model was able to run quickly and achieve 92.07% accuracy in 24 epoch
+* Model was overfitting and regularizations (Dropout & L2) are used to limit overfitting
 
