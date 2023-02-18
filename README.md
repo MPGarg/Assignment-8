@@ -9,36 +9,32 @@
 
 All classes & functions are defined in [link](https://github.com/MPGarg/main_repo). 
 
-In notebook EVA8_Assigment_8.ipynb [link](EVA8_Assigment_8.ipynb) functions from the main repository are called. Model Custom_ResNet is trained for 24 Epochs on CIFAR10 dataset using OneCycle Scheduler with 96.50% training and 92.07% testing accuracy.
+In notebook EVA8_Assigment_8.ipynb [link](EVA8_Assigment_8.ipynb) functions from the main repository are called. Model Custom_ResNet is trained for 24 Epochs on CIFAR10 dataset using OneCycle Scheduler with 96.60% training and 93.02% testing accuracy.
 
 ### Training Log
 
 Last Few Epochs:
 
-![image](https://user-images.githubusercontent.com/120099863/219732816-3474d8e7-3517-4aca-9246-ab4586c268bc.png)
+![image](https://user-images.githubusercontent.com/120099863/219870983-f54ddee5-9494-40cd-aac0-b92355f2399b.png)
 
 ### Accuracy & Loss Curve
 
-![image](https://user-images.githubusercontent.com/120099863/219733104-0480ac9d-e151-4e73-83ed-50300d8d411c.png)
+![image](https://user-images.githubusercontent.com/120099863/219871001-bcafc73f-17de-4edc-95f1-6c1d467e21bf.png)
 
 ### Misclassified Images
 
-![image](https://user-images.githubusercontent.com/120099863/219733446-4bbf9cb7-1439-475b-8721-ee7275c2d54e.png)
+![image](https://user-images.githubusercontent.com/120099863/219871024-3ccf044d-a85f-4fb5-855f-785292959c6a.png)
 
 ### GradCam Output
 
 Misclassified:
 
-![image](https://user-images.githubusercontent.com/120099863/219733768-e1908e4f-12ea-42c3-9bc2-c2ede5082258.png)
-
-Correct Ones:
-
-![image](https://user-images.githubusercontent.com/120099863/219734067-e6f2e678-5759-4915-a595-c5f6fc6cd879.png)
+![image](https://user-images.githubusercontent.com/120099863/219871058-7c16881b-b758-44e8-bade-1b1fdd81af1a.png)
 
 ## Conclusion
 
 * One Cycle Policy helps in speeding of learning for the model
 * Learning rate (maximum & minimum) can vary as per initialized weights of model and need to be determined for that particular model initialization
-* Model was able to run quickly and achieve 92.07% accuracy in 24 epoch
+* Model was able to run quickly and achieve 93.02% testing accuracy in 24 epoch
 * Model was overfitting and regularizations (Dropout & L2) are used to limit overfitting
 
